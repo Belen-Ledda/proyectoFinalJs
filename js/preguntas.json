@@ -1,1 +1,62 @@
-
+[
+    {
+        "respuesta": 2,
+        "tituloPregunta": "Elije la Afirmación correcta:",
+        "opciones":[
+            {
+                "alternativa1":"Java es un lenguaje basado en prototipos y puede emular programacion orientada a objetos y JavaScript es un lenguaje orientado a objetos puros (OOP).",
+                "alternativa2":"JavaScript es un lenguaje interpretado y Java Compilado.",
+                "alternativa3":"JavaScript es un lenguaje fuertemente tipado y Java es débilmente tipado. Esto significa que las variables en JavaScript tienen un determinado tipo y no pueden modificarse, por el contrario, en Java una misma variable puede variar el tipo de su contenido en ejecución.",
+                "alternativa4":"JavaScript un lenguaje más pesado y robusto, mientras que Java presenta mayor versatilidad y flexibilidad."
+            }
+        ]
+    },
+    {
+        "respuesta":1,
+        "tituloPregunta": "tipos de datos en JavaScript:",
+        "opciones":[
+            {
+                "alternativa1":" String, booleano, objeto, número, indefinido.",
+                "alternativa2":"Byte,short,int,long,float,double,boolean,char.",
+                "alternativa3":"Escalares,arrays,arrays de indexación literal.",
+                "alternativa4":"sbyte , byte , short , ushort , int , uint , long y ulong. "  
+            }
+        ]
+    },
+    {
+        "respuesta":4,
+        "tituloPregunta": "¿qué son las variables no declaradas?",
+        "opciones":[
+            {
+                "alternativa1":"Son variables que no representa a ningún objeto o cadena,  ni valor booleano, ni  número u objeto de un array.",
+                "alternativa2":"son las que están a disposición para utilizar en todo el código, esto quiere decir, que no tienen alcance. ",
+                "alternativa3":"son aquellas declaradas en el programa, pero no tienen asignado ningún valor. Si el programa quiere leer el valor de  variable no definida, se devuelve un valor no definido.",
+                "alternativa4":" son las que no existen en un programa, y no se declaran. Si el programa trata de leer su valor entonces va a arrojar un error."  
+            }
+        ]
+    },
+    {
+        "respuesta":3,
+        "tituloPregunta": "¿Cual es el resultado de 3+2+'7'?:",
+        "opciones":[
+            {
+                "alternativa1":"327",
+                "alternativa2":"732",
+                "alternativa3":"57",
+                "alternativa4":"75"  
+            }
+        ]
+    },
+    {
+        "respuesta":1,
+        "tituloPregunta": "¿para que sirve la función isNaN?:",
+        "opciones":[
+            {
+                "alternativa1":"Sirve para devolver verdadero si el argumento no es un número porque de lo contrario arrojaría un falso.",
+                "alternativa2":"Es un número en JavaScript que puede ser derivado, al dividir el número negativo entre cero.",
+                "alternativa3":"La función isNaN un cuadro que permite al usuario introducir datos, mediante un cuadro de texto. ",
+                "alternativa4":"Sirve para hacer un ciclo a través de las propiedades que tiene  un objeto. "
+            }
+        ]
+    }
+]

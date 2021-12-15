@@ -8,9 +8,9 @@ class Prueba {
             puntsaje: 0,
         }
 
-        this.guardarPruebaLocalStronge(infoPersona)
+        this.guardarPruebaLocalStronge(infoPersona);
 
-        location.href="preguntas.html";
+        location.href= "preguntas.html";
 
     }
     guardarPruebaLocalStronge(infoPersona){
@@ -23,11 +23,11 @@ class Prueba {
         localStorage.setItem('prueba', JSON.stringify(prueba));
     }
 
-    obtenerPruebaLocalStronge() {
+    obtenerPruebaLocalStronge(){
         let pruebaLS;
 
 
-        if(localStorage.getItem ('prueba')===null){
+        if(localStorage.getItem('prueba')===null){
             pruebaLS = [];
         }
         else {
@@ -40,14 +40,25 @@ class Prueba {
         
         document.getElementById('muestra-resultado').hidden = false;
 
-        let pruebaLS
+        let pruebaLS;
+
         pruebaLS = this.obtenerPruebaLocalStronge();
 
-        console.log(pruebaLS);
+        //console.log(pruebaLS);
+        pruebaLS.sort((a,b)=> {
+            return b.puntaje - a.puntaje;
+        });
 
         pruebaLS.forEach(prueba => {prueba
-            const row = document.create
-        
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td>${prueba.nombre}</td>
+                <td>${prueba.edad}</td>
+                <td>${prueba.email}</td>
+                <td>${prueba.puntaje}</td>
+
+            `;
+            listaResultados.appendChild(row);
         })
     }
 
