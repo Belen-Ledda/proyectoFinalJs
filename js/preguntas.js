@@ -15,7 +15,7 @@ let respuesta;
 
 
 function mostrar(){
-    fetch('/js/preguntas.json')
+    fetch('js/preguntas.json')
         .then(response =>{
             return response.json();
         })
