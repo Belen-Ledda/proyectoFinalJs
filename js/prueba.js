@@ -36,7 +36,7 @@ class Prueba {
         return pruebaLS;
     }
     leerLocalStorage(e) {
-        e.preventDefault();
+        
         
         document.getElementById('muestra-resultado').hidden = false;
 
