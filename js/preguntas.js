@@ -51,7 +51,7 @@ function mostrar(){
 
 function verificar(){
 
-    mostrar();
+
 
     const tipo = document.querySelector('input[name="alternativas"]:checked');
     let respuestaLS;
